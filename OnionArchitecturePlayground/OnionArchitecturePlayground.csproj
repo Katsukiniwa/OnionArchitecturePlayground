@@ -4,4 +4,48 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="src\" />
+    <None Remove="src\Common\" />
+    <None Remove="src\Domain\" />
+    <None Remove="src\UseCase\" />
+    <None Remove="src\UseCase\新しいフォルダー\" />
+    <None Remove="src\UseCase\Query\" />
+    <None Remove="src\Infrastructure\" />
+    <None Remove="src\Common\Domain\" />
+    <None Remove="src\Common\UseCase\" />
+    <None Remove="src\Infrastructure\Query\" />
+    <None Remove="src\Infrastructure\Repository\" />
+    <None Remove="src\Domain\Model\" />
+    <None Remove="src\Domain\Service\" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="MediatR" />
+    <None Remove="MediatR.Extensions.Autofac.DependencyInjection" />
+    <None Remove="MySql.Data" />
+    <None Remove="Pomelo.EntityFrameworkCore.MySql" />
+    <None Remove="MySql.Data.EntityFrameworkCore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="src\Common\" />
+    <Folder Include="src\Domain\" />
+    <Folder Include="src\UseCase\" />
+    <Folder Include="src\UseCase\Command\" />
+    <Folder Include="src\UseCase\Query\" />
+    <Folder Include="src\Infrastructure\" />
+    <Folder Include="src\Common\Domain\" />
+    <Folder Include="src\Common\UseCase\" />
+    <Folder Include="src\Infrastructure\Query\" />
+    <Folder Include="src\Infrastructure\Repository\" />
+    <Folder Include="src\Domain\Model\" />
+    <Folder Include="src\Domain\Service\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Autofac.DependencyInjection" Version="7.3.0" />
+    <PackageReference Include="MySql.Data" Version="8.0.26" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.1" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+  </ItemGroup>
 </Project>
