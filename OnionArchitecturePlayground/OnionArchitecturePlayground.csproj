@@ -24,6 +24,7 @@
     <None Remove="MySql.Data" />
     <None Remove="Pomelo.EntityFrameworkCore.MySql" />
     <None Remove="MySql.Data.EntityFrameworkCore" />
+    <None Remove="src\Common\Infrastructure\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\" />
@@ -39,6 +40,7 @@
     <Folder Include="src\Infrastructure\Repository\" />
     <Folder Include="src\Domain\Model\" />
     <Folder Include="src\Domain\Service\" />
+    <Folder Include="src\Common\Infrastructure\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
